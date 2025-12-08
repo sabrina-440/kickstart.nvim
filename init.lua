@@ -238,8 +238,8 @@ local rtp = vim.opt.rtp
 rtp:prepend(lazypath)
 
 
-vim.opt.shiftwidth = 4,
-vim.opt.expandtab = true,
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
 -- [[ Configure and install plugins ]]
 --
 --  To check the current status of your plugins, run
